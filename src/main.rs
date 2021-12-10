@@ -1,5 +1,5 @@
 use serde::{Serialize};
-use url::{Url, ParseError};
+use url::{Url};
 use my_project::Record;
 /*
 The goal is to be able to call "save" for structs

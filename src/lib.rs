@@ -1,4 +1,4 @@
-use syn::{parse_macro_input, parse::{self, Parse, ParseStream}};
+use syn::{parse_macro_input};
 use quote::{ToTokens, quote};
 use proc_macro::TokenStream;
 use proc_macro2::TokenStream as TokenStream2;
