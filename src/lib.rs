@@ -15,7 +15,7 @@ fn handle(thing: syn::ItemStruct) -> TokenStream2 {
   quote! {
     impl Record for #path {
       fn path() -> &'static str{
-        #path
+        stringify!(#path)
       }
     }
   }
